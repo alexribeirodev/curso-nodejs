@@ -3,27 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/docs/introducao/</loc>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/introducao/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/categories/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/docs/</loc>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/docs/introducao/o-que-e-node/</loc>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/introducao/o-que-e-node/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/tags/</loc>
   </url>
   
 </urlset>
