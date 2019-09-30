@@ -3,7 +3,107 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/console/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/gerenciando-dependencias/</loc>
+  </url>
+  
+  <url>
     <loc>https://alexribeirodev.github.io/curso-nodejs/docs/introducao/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/introducao/o-que-e-node/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/hello-world/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/introducao/instalacao-node/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/manipulando-arquivos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/comentarios/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/json/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/requisicoes-http/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/variaveis/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/objetos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/requisicoes-request/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/servidor-http/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/prototype/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/expressjs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/servicos-aws/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/funcoes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/contexto/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/listas-arrays/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/loops/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/operadores-aritmeticos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/condicionais/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/classes/</loc>
   </url>
   
   <url>
@@ -16,10 +116,6 @@
   
   <url>
     <loc>https://alexribeirodev.github.io/curso-nodejs/</loc>
-  </url>
-  
-  <url>
-    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/introducao/o-que-e-node/</loc>
   </url>
   
   <url>
