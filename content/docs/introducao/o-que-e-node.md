@@ -1,6 +1,6 @@
 ---
 title: O que é Node.js?
-heigth: 1
+weight: 1
 ---
 
 # O que é Node.js?
