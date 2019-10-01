@@ -16,7 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/introducao/o-que-e-node/</guid>
-      <description> O que é Node.js? </description>
+      <description>O que é Node.js? Node.js é um runtime de JavaScript, criado por Ryan Dahl em 2009. Foi desenvolvido em cima do motor JavaScript V8 — engine criada pelo Google e utilizado no Chrome e Chromium, desenvolvida na linguagem C++ — , que leva o processamento e renderização do JavaScript para o lado do servidor.
+Node.js usa um modelo de I/O não bloqueante orientada a evento que o torna leve e eficiente, que possibilita criar aplicações rápidas, escaláveis e estáveis.</description>
     </item>
     
     <item>
@@ -25,7 +26,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/introducao/instalacao-node/</guid>
-      <description> Instalação do Node.js </description>
+      <description>Instalação do Node.js Existem diversas formas de se instalar o Node.js e funciona em praticamente todas os sistemas operacionais e plataformas existentes atualmente. Daremos preferência à versão LTS (Long-term Support), pois a última versão (latest) pode possuir eventuais bugs (e de bugs, já basta os nossos rsrs).
+Para instalar, vamos acessar a página de download oficial do Node.js, clicando aqui.
+Windows  Existe as seguintes formas de se ter o Node.</description>
     </item>
     
   </channel>

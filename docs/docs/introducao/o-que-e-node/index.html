@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="/curso-nodejs/book.min.89885fa0429ec73067282f26fc0c6d38cfc617a443ec4e835d47b821c52c6e92.css" integrity="sha256-iYhfoEKexzBnKC8m/AxtOM/GF6RD7E6DXUe4IcUsbpI=">
 
 
-<script defer src="/curso-nodejs/search.min.dfca7381373907995083ed3af08c28b16e1bdbcc3300f0e6c0b4e9c91031466a.js" integrity="sha256-38pzgTc5B5lQg&#43;068IwosW4b28wzAPDmwLTpyRAxRmo="></script>
+<script defer src="/curso-nodejs/search.min.8004ba6280a579546bfea8a5aa970d8102f831defba172f7439d14f76185fe7a.js" integrity="sha256-gAS6YoCleVRr/qilqpcNgQL4Md77oXL3Q50U92GF/no="></script>
 
 
 
@@ -394,6 +394,90 @@ https://github.com/alex-shpak/hugo-book
 <article class="markdown">
 
 <h1 id="o-que-é-node-js">O que é Node.js?</h1>
+
+<p><a href="https://nodejs.org/">Node.js</a> é um runtime de JavaScript, criado por <a href="https://en.wikipedia.org/wiki/Ryan_Dahl">Ryan Dahl</a> em 2009. Foi desenvolvido em cima do motor <a href="https://v8.dev/">JavaScript V8</a>  — engine criada pelo Google e utilizado no Chrome e Chromium, desenvolvida na linguagem C++ — , que leva o processamento e renderização do JavaScript para o lado do servidor.</p>
+
+<p>Node.js usa um modelo de I/O não bloqueante orientada a evento que o torna leve e eficiente, que possibilita criar aplicações rápidas, escaláveis e estáveis. Desde seu surgimento, vem ganhando crescente espaço entre profissionais de tecnologia do Brasil e do mundo.</p>
+
+<p>Já pensou, poder utilizar javascript no back-end, com a mesma segurança proporcionada por linguagens como PHP e ASP.NET?!</p>
+
+<p>Para quem já tem certa experiência com desenvolvimento web (certamente conhece a limitação de uso do <strong>Javascript no front-end</strong>) nunca iria imaginar essa possibilidade.</p>
+
+<p>Agora estamos em uma era diferente, onde praticamente todas as grandes limitações do Javascript não existem mais. A cada dia infinitas possibilidades surgem e diversas referências vem aderindo a esse avanço.</p>
+
+<h1 id="por-que-e-quando-utilizar-node-js">Por que (e quando) utilizar Node.js?</h1>
+
+<p>Vou listar pontos cruciais, alguns já mencionados anteriormente, que irão te esclarecer o porquê de utilizar o Node.js:</p>
+
+<ul>
+<li><strong>Assíncrono</strong> ;</li>
+<li><strong>I/O sem bloqueios</strong> ;</li>
+<li><strong>Alta performance</strong> ;</li>
+<li><strong>Escalabilidade fácil e barata</strong> ;</li>
+<li><strong>Loop de eventos</strong>.</li>
+</ul>
+
+<p>Um detalhe que toma a dianteira em relação aos concorrentes é o <strong>loop de eventos</strong>. Irei explicar melhor como isso funciona.</p>
+
+<p>Geralmente, um jeito “tradicional” de lidar com muitas requisições é criando múltiplas threads, ou seja, para cada requisição é criada uma thread. Nela é tratada a requisição e somente após o retorno deste tratamento a thread é finalizada. Porém, muito recurso é gasto nesse processo e muitas vezes de forma desnecessária, já que nem sempre todo aquele recurso reservado é utilizado e a thread fica “estacionada” enquanto o tratamento não estiver concluído.</p>
+
+<blockquote>
+<p>Quando uso o termo “tratamento” me refiro a qualquer processo feito antes de devolver uma resposta, seja uma consulta no banco, verificação de arquivo, cálculo…</p>
+</blockquote>
+
+<p>Já o Node.js, trata toda e qualquer requisição em uma única thread.</p>
+
+<blockquote>
+<p>Aí você me pergunta: Então como é possível ele ser tão performático?</p>
+</blockquote>
+
+<p>Quando ele recebe uma requisição, ao invés de esperar o resultado do tratamento desta, ele segue com a próxima requisição e assim por diante, como uma fila. Quando alguma requisição em espera tiver seu tratamento finalizado, é sinalizado um evento que a retornará o quanto antes.</p>
+
+<p>Isso quer dizer que, com o Node.js, temos um ganho muito grande de número de requisições que podem ser processadas.</p>
+
+<p>Node.js não é apenas um servidor, já que hoje em dia pode ser utilizado para criar até mesmo aplicações desktop. Também é ótimo para realizar diversos tipos de projetos, como:</p>
+
+<ul>
+<li>APIs (principal uso);</li>
+<li>Aplicações web real-time como servidores de chat ou aplicações colaborativas entre múltiplos usuários (socket);</li>
+<li>Jogos multiplayer;</li>
+<li>Aplicações que demandam alta escalabilidade;</li>
+<li>Servidores de streaming de dados.</li>
+</ul>
+
+<h1 id="quando-não-utilizar">Quando não utilizar?</h1>
+
+<p>Por usar somente uma thread, ele não serve para lidar com algoritmos complexos que consumam muita CPU, como edição de imagens, por exemplo. Isso impediria a execução de outras ações até o processamento estar completo.</p>
+
+<h1 id="quem-já-utiliza">Quem já utiliza?</h1>
+
+<blockquote>
+<p>Então quer dizer que não é só uma “modinha”?</p>
+</blockquote>
+
+<p>Aqui vai uma lista de empresas conhecidas que utilização esta linda tecnologia:</p>
+
+<ul>
+<li><strong>Walmart;</strong></li>
+<li><strong>PayPal;</strong></li>
+<li><strong>Groupon;</strong></li>
+<li><strong>Netflix;</strong></li>
+<li><strong>LinkedIn</strong> ;</li>
+<li><strong>New York Times;</strong></li>
+<li><strong>Flickr</strong> ;</li>
+<li><strong>Mozilla</strong> ;</li>
+<li><strong>Yahoo.</strong>.</li>
+</ul>
+
+<h1 id="links-úteis">Links Úteis</h1>
+
+<ul>
+<li><a href="https://nodejs.org/">https://nodejs.org/</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ryan_Dahl">https://en.wikipedia.org/wiki/Ryan_Dahl</a></li>
+<li><a href="https://v8.dev/">https://v8.dev/</a></li>
+<li><a href="https://medium.com/reactbrasil/como-o-javascript-funciona-dentro-da-engine-v8-5-dicas-sobre-como-escrever-c%C3%B3digo-otimizado-e05af6088fd5">https://medium.com/reactbrasil/como-o-javascript-funciona-dentro-da-engine-v8-5-dicas-sobre-como-escrever-c%C3%B3digo-otimizado-e05af6088fd5</a></li>
+<li><a href="https://dev.to/alexribeir0_/o-que-e-node-js-4oh5">https://dev.to/alexribeir0_/o-que-e-node-js-4oh5</a></li>
+</ul>
 </article>
 
       
@@ -408,6 +492,10 @@ https://github.com/alex-shpak/hugo-book
     <nav id="TableOfContents">
 <ul>
 <li><a href="#o-que-é-node-js">O que é Node.js?</a></li>
+<li><a href="#por-que-e-quando-utilizar-node-js">Por que (e quando) utilizar Node.js?</a></li>
+<li><a href="#quando-não-utilizar">Quando não utilizar?</a></li>
+<li><a href="#quem-já-utiliza">Quem já utiliza?</a></li>
+<li><a href="#links-úteis">Links Úteis</a></li>
 </ul>
 </nav>
   </aside>
