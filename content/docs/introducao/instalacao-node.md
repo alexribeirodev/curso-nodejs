@@ -51,3 +51,6 @@ Após instalação concluída, vamos validar pelo terminal a versão atual do No
 $ node --version
 $ npm --version
 ```
+
+# Links Úteis
+- https://nodejs.org/en/download/
