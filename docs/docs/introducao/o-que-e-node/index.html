@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="/curso-nodejs/book.min.89885fa0429ec73067282f26fc0c6d38cfc617a443ec4e835d47b821c52c6e92.css" integrity="sha256-iYhfoEKexzBnKC8m/AxtOM/GF6RD7E6DXUe4IcUsbpI=">
 
 
-<script defer src="/curso-nodejs/search.min.8004ba6280a579546bfea8a5aa970d8102f831defba172f7439d14f76185fe7a.js" integrity="sha256-gAS6YoCleVRr/qilqpcNgQL4Md77oXL3Q50U92GF/no="></script>
+<script defer src="/curso-nodejs/search.min.32d1714cece771eb33ac79db5e6545259eae3ff27fe2c0a62e2c95b494c6d6cb.js" integrity="sha256-MtFxTOznceszrHnbXmVFJZ6uP/J/4sCmLiyVtJTG1ss="></script>
 
 
 
@@ -431,7 +431,7 @@ https://github.com/alex-shpak/hugo-book
 <p>Aí você me pergunta: Então como é possível ele ser tão performático?</p>
 </blockquote>
 
-<p>Quando ele recebe uma requisição, ao invés de esperar o resultado do tratamento desta, ele segue com a próxima requisição e assim por diante, como uma fila. Quando alguma requisição em espera tiver seu tratamento finalizado, é sinalizado um evento que a retornará o quanto antes.</p>
+<p>Quando ele recebe uma requisição, ao invés de esperar o resultado do tratamento desta, ele segue com a próxima requisição e assim por diante, como uma fila. Quando alguma requisição em espera tiver seu tratamento finalizado, é sinalizado um evento que a retornará o quanto antes. Ou seja, Node.js utiliza o que é chamado modelo de programação orientado a evento.</p>
 
 <p>Isso quer dizer que, com o Node.js, temos um ganho muito grande de número de requisições que podem ser processadas.</p>
 

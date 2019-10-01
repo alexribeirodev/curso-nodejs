@@ -33,7 +33,7 @@ Já o Node.js, trata toda e qualquer requisição em uma única thread.
 
 > Aí você me pergunta: Então como é possível ele ser tão performático?
 
-Quando ele recebe uma requisição, ao invés de esperar o resultado do tratamento desta, ele segue com a próxima requisição e assim por diante, como uma fila. Quando alguma requisição em espera tiver seu tratamento finalizado, é sinalizado um evento que a retornará o quanto antes.
+Quando ele recebe uma requisição, ao invés de esperar o resultado do tratamento desta, ele segue com a próxima requisição e assim por diante, como uma fila. Quando alguma requisição em espera tiver seu tratamento finalizado, é sinalizado um evento que a retornará o quanto antes. Ou seja, Node.js utiliza o que é chamado modelo de programação orientado a evento.
 
 Isso quer dizer que, com o Node.js, temos um ganho muito grande de número de requisições que podem ser processadas.
 
