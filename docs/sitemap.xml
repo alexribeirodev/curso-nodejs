@@ -19,10 +19,6 @@
   </url>
   
   <url>
-    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/hello-world/</loc>
-  </url>
-  
-  <url>
     <loc>https://alexribeirodev.github.io/curso-nodejs/docs/introducao/instalacao-node/</loc>
   </url>
   
@@ -67,7 +63,7 @@
   </url>
   
   <url>
-    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/prototype/</loc>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/funcoes/</loc>
   </url>
   
   <url>
@@ -76,10 +72,6 @@
   
   <url>
     <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/servicos-aws/</loc>
-  </url>
-  
-  <url>
-    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/funcoes/</loc>
   </url>
   
   <url>
@@ -100,6 +92,10 @@
   
   <url>
     <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/loops/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/prototype/</loc>
   </url>
   
   <url>

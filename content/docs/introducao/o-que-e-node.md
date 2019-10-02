@@ -35,6 +35,8 @@ Já o Node.js, trata toda e qualquer requisição em uma única thread.
 
 Quando ele recebe uma requisição, ao invés de esperar o resultado do tratamento desta, ele segue com a próxima requisição e assim por diante, como uma fila. Quando alguma requisição em espera tiver seu tratamento finalizado, é sinalizado um evento que a retornará o quanto antes. Ou seja, Node.js utiliza o que é chamado modelo de programação orientado a evento.
 
+![Event Loop](https://camo.githubusercontent.com/c997d19ed67fc0ed69e91cf5e6d43489d767ac60/687474703a2f2f322e62702e626c6f6773706f742e636f6d2f2d576b33436a7a55667375672f56564835492d336d726b492f414141414141414141526b2f78464e5a7a626d5155466b2f73313630302f6c6f6f70322e706e67 "Event Loop Node.js")
+
 Isso quer dizer que, com o Node.js, temos um ganho muito grande de número de requisições que podem ser processadas.
 
 Node.js não é apenas um servidor, já que hoje em dia pode ser utilizado para criar até mesmo aplicações desktop. Também é ótimo para realizar diversos tipos de projetos, como:
@@ -69,3 +71,4 @@ Aqui vai uma lista de empresas conhecidas que utilização esta linda tecnologia
 - https://v8.dev/
 - https://medium.com/reactbrasil/como-o-javascript-funciona-dentro-da-engine-v8-5-dicas-sobre-como-escrever-c%C3%B3digo-otimizado-e05af6088fd5
 - https://dev.to/alexribeir0_/o-que-e-node-js-4oh5
+- https://github.com/Webschool-io/be-mean/blob/master/Apostila/module-nodejs/pt-br/theory.md

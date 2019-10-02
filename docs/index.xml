@@ -16,7 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/console/</guid>
-      <description> Console </description>
+      <description>Console Um dos processos mais utilizados nas linguagens de programação para se debugar um algoritmo é através impressões (mais conhecidos como &amp;ldquo;print&amp;rdquo;), geralmente a nível console/terminal, do que desejamos ver do fluxo de execução, podendo ser desde fluxos de entrada, saída e erros.
+Essa impressão difere entre as linguagens em questão de sintaxe, mas sua mecânica não costuma ser diferente. Abaixo temos listadas alguns exemplos desse tipo de impressão em algumas linguagens.</description>
     </item>
     
     <item>
@@ -36,15 +37,6 @@
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/introducao/o-que-e-node/</guid>
       <description>O que é Node.js? Node.js é um runtime de JavaScript, criado por Ryan Dahl em 2009. Foi desenvolvido em cima do motor JavaScript V8 — engine criada pelo Google e utilizado no Chrome e Chromium, desenvolvida na linguagem C++ — , que leva o processamento e renderização do JavaScript para o lado do servidor.
 Node.js usa um modelo de I/O não bloqueante orientada a evento que o torna leve e eficiente, que possibilita criar aplicações rápidas, escaláveis e estáveis.</description>
-    </item>
-    
-    <item>
-      <title>Hello World!</title>
-      <link>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/hello-world/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/hello-world/</guid>
-      <description> Hello World! </description>
     </item>
     
     <item>
@@ -73,7 +65,8 @@ Windows  Existe as seguintes formas de se ter o Node.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/comentarios/</guid>
-      <description> Comentários </description>
+      <description>Comentários Comentários são essenciais em qualquer linguagem, principalmente se estiver pensando no seu coleguinha que irá tocar no código depois de você. Deixar comentários no código detalhando pelo menos para quê um item (classe, variável, função, e etc) está sendo utilizado é imprescindível para a saúde de qualquer projeto, independente do quão custoso isso possa ser.
+No Javascript, existem duas formas de inserir comentários no código: linha única e multiplas linhas.</description>
     </item>
     
     <item>
@@ -100,7 +93,8 @@ Windows  Existe as seguintes formas de se ter o Node.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/variaveis/</guid>
-      <description> Variáveis Tipos de Variáveis </description>
+      <description>Variáveis Em Javascript, as variáveis possuem tipagens dinâmicas. Podemos criar uma variável atribuindo um valor do tipo inteiro e logo em seguida atribuir uma string, como o exemplo a seguir.
+var x = 1 console.log(x) // 1 x = &amp;quot;Essa é uma string&amp;quot; console.log(x) // &amp;quot;Essa é uma string&amp;quot;  Os nomes das variáveis em Javascript são bastante flexíveis. Eles podem conter letras, números, sublinhados e cifrões. A regra aqui é que uma variável só pode começar com um caractere, um cifrão ou um sublinhado, mas nunca com um número.</description>
     </item>
     
     <item>
@@ -131,12 +125,12 @@ Windows  Existe as seguintes formas de se ter o Node.</description>
     </item>
     
     <item>
-      <title>Prototype</title>
-      <link>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/prototype/</link>
+      <title>Funções</title>
+      <link>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/funcoes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/prototype/</guid>
-      <description> Prototype </description>
+      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/funcoes/</guid>
+      <description> Funções </description>
     </item>
     
     <item>
@@ -155,15 +149,6 @@ Windows  Existe as seguintes formas de se ter o Node.</description>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/node/servicos-aws/</guid>
       <description> Consumindo Serviços da AWS </description>
-    </item>
-    
-    <item>
-      <title>Funções</title>
-      <link>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/funcoes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/funcoes/</guid>
-      <description> Funções </description>
     </item>
     
     <item>
@@ -209,6 +194,15 @@ Windows  Existe as seguintes formas de se ter o Node.</description>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/loops/</guid>
       <description> Loops For ForIn ForOf While Break e Continue </description>
+    </item>
+    
+    <item>
+      <title>Prototype</title>
+      <link>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/prototype/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/prototype/</guid>
+      <description> Prototype </description>
     </item>
     
     <item>

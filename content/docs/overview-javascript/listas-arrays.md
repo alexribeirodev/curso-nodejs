@@ -1,6 +1,6 @@
 ---
 title: Listas/Arrays
-weight: 9
+weight: 8
 ---
 
 # Listas/Arrys

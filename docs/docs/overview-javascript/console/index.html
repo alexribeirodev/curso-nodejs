@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="/curso-nodejs/book.min.89885fa0429ec73067282f26fc0c6d38cfc617a443ec4e835d47b821c52c6e92.css" integrity="sha256-iYhfoEKexzBnKC8m/AxtOM/GF6RD7E6DXUe4IcUsbpI=">
 
 
-<script defer src="/curso-nodejs/search.min.32d1714cece771eb33ac79db5e6545259eae3ff27fe2c0a62e2c95b494c6d6cb.js" integrity="sha256-MtFxTOznceszrHnbXmVFJZ6uP/J/4sCmLiyVtJTG1ss="></script>
+<script defer src="/curso-nodejs/search.min.1599714e672bc83b0464cb23954a7e0c4a08480fb66d5192342ea1962e8e6451.js" integrity="sha256-FZlxTmcryDsEZMsjlUp&#43;DEoISA&#43;2bVGSNC6hli6OZFE="></script>
 
 
 
@@ -127,16 +127,6 @@ https://github.com/alex-shpak/hugo-book
       
         <li>
 
-  <a href="/curso-nodejs/docs/overview-javascript/hello-world/" >
-      Hello World!
-  </a>
-
-</li>
-      
-    
-      
-        <li>
-
   <a href="/curso-nodejs/docs/overview-javascript/comentarios/" >
       Comentários
   </a>
@@ -159,16 +149,6 @@ https://github.com/alex-shpak/hugo-book
 
   <a href="/curso-nodejs/docs/overview-javascript/objetos/" >
       Objetos
-  </a>
-
-</li>
-      
-    
-      
-        <li>
-
-  <a href="/curso-nodejs/docs/overview-javascript/prototype/" >
-      Prototype
   </a>
 
 </li>
@@ -229,6 +209,16 @@ https://github.com/alex-shpak/hugo-book
 
   <a href="/curso-nodejs/docs/overview-javascript/loops/" >
       Loops
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/curso-nodejs/docs/overview-javascript/prototype/" >
+      Prototype
   </a>
 
 </li>
@@ -394,6 +384,42 @@ https://github.com/alex-shpak/hugo-book
 <article class="markdown">
 
 <h1 id="console">Console</h1>
+
+<p>Um dos processos mais utilizados nas linguagens de programação para se debugar um algoritmo é através impressões (mais conhecidos como &ldquo;print&rdquo;), geralmente a nível console/terminal, do que desejamos ver do fluxo de execução, podendo ser desde fluxos de entrada, saída e erros.</p>
+
+<p>Essa impressão difere entre as linguagens em questão de sintaxe, mas sua mecânica não costuma ser diferente. Abaixo temos listadas alguns exemplos desse tipo de impressão em algumas linguagens.</p>
+
+<p>Java:</p>
+
+<pre><code class="language-java">System.out.println(&quot;Hello World!&quot;);
+</code></pre>
+
+<p>C#:</p>
+
+<pre><code class="language-csharp">Console.Write(&quot;Hello World!&quot;);
+</code></pre>
+
+<p>Python:</p>
+
+<pre><code class="language-python">print(&quot;Hello World!&quot;)
+</code></pre>
+
+<p>No Javascript, essa responsabilidade fica sobre o objeto <code>console</code>, que fornece acesso ao console de debug do navegador incluindo um conjunto de ferramentas.</p>
+
+<h1 id="hello-world">Hello World!</h1>
+
+<p>Agora já podemos executar nosso primeiro e clássico <em>Hello World</em> utilizando este objeto do Javascript. Para isso, acesse qualquer página web em um navegador de sua preferência, clique com o botão direito sobre qualquer lugar da página e procure a opção <em>Inspecionar</em>. Notará que abriu uma nova camada no navegador, nela acesse a aba <em>Console</em>. Este será nosso primeiro playground para Javascript.</p>
+
+<p>Copie o código abaixo, cole no console e tecle Enter:</p>
+
+<pre><code class="language-javascript">console.log(&quot;Hello World!&quot;)
+</code></pre>
+
+<p>Parabéns! Você executou seu primeiro trecho de código em Javascript.</p>
+
+<h1 id="saiba-mais">Saiba mais</h1>
+
+<p>O objeto console possui diversas outras ferramentas complementares ao ´console.log´, <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Console">clique aqui</a> para saber mais.</p>
 </article>
 
       
@@ -408,6 +434,8 @@ https://github.com/alex-shpak/hugo-book
     <nav id="TableOfContents">
 <ul>
 <li><a href="#console">Console</a></li>
+<li><a href="#hello-world">Hello World!</a></li>
+<li><a href="#saiba-mais">Saiba mais</a></li>
 </ul>
 </nav>
   </aside>
