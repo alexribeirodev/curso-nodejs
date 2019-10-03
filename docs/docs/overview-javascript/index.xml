@@ -67,7 +67,8 @@ Um objeto é composto por um conjunto de chaves e valores, estes podendo ser des
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/contexto/</guid>
-      <description> Contexto (this) </description>
+      <description>Contexto (this) O contexto no Javacript é algo que tanto pode ser tanto nosso amigo quanto nosso pior inimigo. O mesmo é responsável muitas vezes o motivo de bugs em nosso algoritmo, como também a solução para muitos de nossos problemas.
+O contexto pode ser acessado de qualquer parte do seu código pelo objeto reservado this. Porém, seu valor pode ser diferente dependendo de qual parte do seu código está sendo chamado.</description>
     </item>
     
     <item>
@@ -76,7 +77,7 @@ Um objeto é composto por um conjunto de chaves e valores, estes podendo ser des
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/listas-arrays/</guid>
-      <description> Listas/Arrys ForEach Map Filter Push Pop Shift Shift UnShift Indexof Splice Slice </description>
+      <description> Listas/Arrays ForEach Map Filter Push Pop Shift Shift UnShift Indexof Splice Slice </description>
     </item>
     
     <item>

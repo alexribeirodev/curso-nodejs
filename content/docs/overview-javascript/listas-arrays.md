@@ -3,7 +3,7 @@ title: Listas/Arrays
 weight: 8
 ---
 
-# Listas/Arrys
+# Listas/Arrays
 
 ## ForEach
 

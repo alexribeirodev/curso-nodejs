@@ -34,11 +34,11 @@ Em Javascript, todas as estrutura são objetos. Ainda assim, existem os tipos de
 ## Tipos de declarações
 Podemos fazer a declaração de uma variável no Javascript com três operadores: `var`, `let` e `const`. Ambos servem para o mesmo fim, armazenar valores de dados, porém possuem usabilidades distintas. O que diferencia uma da outra gira em torno ou de escopo ou de mutabilidade dos dados.
 
-### Const
+### const
 Utilize quando você precisar declarar constantes, ou seja, você não quer haja uma nova atribuição de valor para uma variável durante a execução do bloco. O escopo das variáveis declaradas com `const` será o bloco em que elas foram declaradas. Além de que esta, ao contrário das outras, deve ter sempre um valor atribuído logo quando inicializada.
 
-### Var
+### var
 Utilize quando precisar declarar uma variável que deve ser global dentro do seu contexto de execução, ou seja, o valor dessa variável poderá ser alterado a qualquer momento em qualquer bloco que esteja dentro do mesmo contexto de execução. Dito isto, o escopo dos identificadores definidos com var é o contexto de execução em que foram declarados, se a variável foi declarada dentro de uma função, seu escopo será aquela função, se não foi declarado dentro de nenhuma função, seu escopo será global.
 
-### Let
+### let
 Utilize quando você precisar fazer reatribuições, ou seja, a sua variável precisará assumir diferentes valores durante a execução do bloco. Assim como `const`, o escopo das variáveis definidas com `let` será o bloco em que foram declaradas.
