@@ -46,7 +46,8 @@ var x = 1 console.log(x) // 1 x = &amp;quot;Essa é uma string&amp;quot; console
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/objetos/</guid>
-      <description> Objetos </description>
+      <description>Objetos Utilizando Javascript, existem varias formas de se construir um objeto. Utilizando JavaScript, existem varias formas de se construir um objeto. As três formas mais conhecidas são: utilizando a notação literal, utilizando funções construtoras e classes (esta será abordada em outro tópico).
+Um objeto é composto por um conjunto de chaves e valores, estes podendo ser desde string à functions, entre duas chaves ({}). Suponha o seguinte exemplo de função construtora:</description>
     </item>
     
     <item>
@@ -55,7 +56,9 @@ var x = 1 console.log(x) // 1 x = &amp;quot;Essa é uma string&amp;quot; console
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/funcoes/</guid>
-      <description> Funções </description>
+      <description>Funções Segundo a descrição da mozilla.org:
+ Funções são blocos de construção fundamentais em JavaScript. Uma função é um procedimento de JavaScript — um conjunto de instruções que executa uma tarefa ou calcula um valor. Para usar uma função, você deve defini-la em algum lugar no escopo do qual você quiser chamá-la.
+ Funções em Javascript são conhecidas como objetos de primeira classe (first-class objects). Isso porque tudo o que você pode fazer com um objeto, você pode fazer com funções.</description>
     </item>
     
     <item>
