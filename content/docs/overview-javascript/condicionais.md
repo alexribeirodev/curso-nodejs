@@ -5,12 +5,8 @@ weight: 10
 
 # Condicionais
 
-## If
-
-## Else
-
-## If Else
+## if...else
 
 ## Ternário
 
-## Switch
+## switch

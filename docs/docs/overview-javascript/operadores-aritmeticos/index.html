@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="/curso-nodejs/book.min.89885fa0429ec73067282f26fc0c6d38cfc617a443ec4e835d47b821c52c6e92.css" integrity="sha256-iYhfoEKexzBnKC8m/AxtOM/GF6RD7E6DXUe4IcUsbpI=">
 
 
-<script defer src="/curso-nodejs/search.min.b53df1174c0408fd81352e9cce228387b8d694b1f13b6ea6eb0e550117448d69.js" integrity="sha256-tT3xF0wECP2BNS6cziKDh7jWlLHxO26m6w5VARdEjWk="></script>
+<script defer src="/curso-nodejs/search.min.6ecace9c3adb407e4545c8adc358004d43f82a67c6a2dd924241172f635e62ea.js" integrity="sha256-bsrOnDrbQH5FRcitw1gATUP4KmfGot2SQkEXL2NeYuo="></script>
 
 
 
@@ -385,25 +385,140 @@ https://github.com/alex-shpak/hugo-book
 
 <h1 id="operadores-aritméticos">Operadores Aritméticos</h1>
 
-<h2 id="soma">Soma (+)</h2>
+<p>Operadores aritméticos tem valores numéricos (literais ou variáveis) como seus operadores e retornam um valor numérico único. Os operadores aritméticos padrões são adição (<code>+</code>), subtração (<code>-</code>), multiplicação (<code>*</code>), e divisão (<code>/</code>). (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators">mozilla.org</a>)</p>
+
+<h2 id="adição">Adição (+)</h2>
+
+<p>Este operador produz a soma dos valores, estes sendo numéricos ou strings.</p>
+
+<p>Exemplos:</p>
+
+<pre><code class="language-javascript">// Número + Número -&gt; adição
+1 + 2 // 3
+
+// Booleano + Número -&gt; adição
+true + 1 // 2
+
+// Booleano + Booleano -&gt; adição
+false + false // 0
+
+// Número + String -&gt; concatenação
+5 + &quot;foo&quot; // &quot;5foo&quot;
+
+// String + Booleano -&gt; concatenação
+&quot;foo&quot; + false // &quot;foofalse&quot;
+
+// String + String -&gt; concatenação
+&quot;foo&quot; + &quot;bar&quot; // &quot;foobar&quot;
+</code></pre>
 
 <h2 id="subtração">Subtração (-)</h2>
 
+<p>Este operador subtrai dois valores, produzindo sua diferença.</p>
+
+<pre><code class="language-javascript">5 - 3 // 2
+3 - 5 // -2
+&quot;foo&quot; - 3 // NaN
+</code></pre>
+
 <h2 id="multiplicação">Multiplicação (*)</h2>
+
+<p>Este operador produz o produto dos operandos.</p>
+
+<pre><code class="language-javascript">2 * 2 // 4
+-2 * 2 // -4
+Infinity * 0 // NaN
+Infinity * Infinity // Infinity
+&quot;foo&quot; * 2 // NaN
+</code></pre>
 
 <h2 id="divisão">Divisão (/)</h2>
 
+<p>Este operador produz o quociente de seus operandos onde o operando da esquerda é o dividendo e o da direita é o divisor.</p>
+
+<pre><code class="language-javascript">1 / 2      // retorna 0.5 em JavaScript
+1 / 2      // retorna 0 em Java 
+// (nenhum dos números é explicitamente um número de ponto flutuante)
+
+1.0 / 2.0  // retorna 0.5 em JavaScript e Java
+
+2.0 / 0    // retorna Infinity em JavaScript
+2.0 / 0.0  // retorna Infinity também
+2.0 / -0.0 // retorna -Infinity em JavaScript
+</code></pre>
+
 <h2 id="módulo">Módulo (%)</h2>
+
+<p>Este operador produz o resto inteiro da divisão de dois valores.</p>
+
+<pre><code class="language-javascript">12 % 5 // 2
+-1 % 2 // -1
+NaN % 2 // NaN
+</code></pre>
 
 <h2 id="exponenciação">Exponenciação (**)</h2>
 
+<p>Eset operador retorna o resultado do primeiro operando elevado ao segundo operando.</p>
+
+<pre><code class="language-javascript">2 ** 3 // 8
+3 ** 2 // 9
+3 ** 2.5 // 15.588457268119896
+10 ** -1 // 0.1
+NaN ** 2 // NaN
+
+2 ** 3 ** 2 // 512
+2 ** (3 ** 2) // 512
+(2 ** 3) ** 2 // 64
+</code></pre>
+
 <h2 id="incremento">Incremento (++)</h2>
+
+<p>Este operador incrementa seu operando e retorna um valor.</p>
+
+<pre><code class="language-javascript">// Posfixo 
+var x = 3;
+y = x++; // y = 3, x = 4
+
+// Prefixo
+var a = 2;
+b = ++a; // a = 3, b = 3
+</code></pre>
 
 <h2 id="decremento">Decremento (&ndash;)</h2>
 
+<p>Este operador decrementa seu operando e retorna um valor.</p>
+
+<pre><code class="language-javascript">// Posfixo 
+var x = 3;
+y = x--; // y = 3, x = 2
+
+// Prefixo
+var a = 2;
+b = --a; // a = 1, b = 1
+</code></pre>
+
 <h2 id="negação-unária">Negação Unária (-)</h2>
 
+<p>Este operador precede seu operando e o nega.</p>
+
+<pre><code class="language-javascript">var x = 3;
+y = -x; // y = -3, x = 3
+</code></pre>
+
 <h2 id="soma-unária">Soma Unária (+)</h2>
+
+<p>Este operador precede seu operando e calcula para seu operando mas tenta convertê-lo para um número, caso ainda não o seja.</p>
+
+<pre><code class="language-javascript">+3     // 3
++&quot;3&quot;   // 3
++true  // 1
++false // 0
++null  // 0
+</code></pre>
+
+<blockquote>
+<p>Exemplos retirados da documentação da <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators">mozilla.org</a>, uma das principais fontes de conteúdo sobre javascript.</p>
+</blockquote>
 </article>
 
       
@@ -419,7 +534,7 @@ https://github.com/alex-shpak/hugo-book
 <ul>
 <li><a href="#operadores-aritméticos">Operadores Aritméticos</a>
 <ul>
-<li><a href="#soma">Soma (+)</a></li>
+<li><a href="#adição">Adição (+)</a></li>
 <li><a href="#subtração">Subtração (-)</a></li>
 <li><a href="#multiplicação">Multiplicação (*)</a></li>
 <li><a href="#divisão">Divisão (/)</a></li>

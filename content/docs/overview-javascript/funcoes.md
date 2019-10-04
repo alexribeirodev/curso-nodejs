@@ -83,7 +83,7 @@ Veja o exemplo abaixo:
 
 ```javascript
 function createQuote(quote, callback){ 
-  var myQuote = "Como eu sempre digo, " + quote;
+  let myQuote = "Como eu sempre digo, " + quote;
   callback(myQuote); // 2
 }
 

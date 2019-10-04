@@ -86,7 +86,10 @@ O contexto pode ser acessado de qualquer parte do seu código pelo objeto reserv
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/operadores-aritmeticos/</guid>
-      <description> Operadores Aritméticos Soma (+) Subtração (-) Multiplicação (*) Divisão (/) Módulo (%) Exponenciação (**) Incremento (++) Decremento (&amp;ndash;) Negação Unária (-) Soma Unária (+) </description>
+      <description>Operadores Aritméticos Operadores aritméticos tem valores numéricos (literais ou variáveis) como seus operadores e retornam um valor numérico único. Os operadores aritméticos padrões são adição (+), subtração (-), multiplicação (*), e divisão (/). (mozilla.org)
+Adição (+) Este operador produz a soma dos valores, estes sendo numéricos ou strings.
+Exemplos:
+// Número + Número -&amp;gt; adição 1 + 2 // 3 // Booleano + Número -&amp;gt; adição true + 1 // 2 // Booleano + Booleano -&amp;gt; adição false + false // 0 // Número + String -&amp;gt; concatenação 5 + &amp;quot;foo&amp;quot; // &amp;quot;5foo&amp;quot; // String + Booleano -&amp;gt; concatenação &amp;quot;foo&amp;quot; + false // &amp;quot;foofalse&amp;quot; // String + String -&amp;gt; concatenação &amp;quot;foo&amp;quot; + &amp;quot;bar&amp;quot; // &amp;quot;foobar&amp;quot;  Subtração (-) Este operador subtrai dois valores, produzindo sua diferença.</description>
     </item>
     
     <item>
@@ -95,7 +98,7 @@ O contexto pode ser acessado de qualquer parte do seu código pelo objeto reserv
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/condicionais/</guid>
-      <description> Condicionais If Else If Else Ternário Switch </description>
+      <description> Condicionais if&amp;hellip;else Ternário switch </description>
     </item>
     
     <item>

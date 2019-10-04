@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="/curso-nodejs/book.min.89885fa0429ec73067282f26fc0c6d38cfc617a443ec4e835d47b821c52c6e92.css" integrity="sha256-iYhfoEKexzBnKC8m/AxtOM/GF6RD7E6DXUe4IcUsbpI=">
 
 
-<script defer src="/curso-nodejs/search.min.b53df1174c0408fd81352e9cce228387b8d694b1f13b6ea6eb0e550117448d69.js" integrity="sha256-tT3xF0wECP2BNS6cziKDh7jWlLHxO26m6w5VARdEjWk="></script>
+<script defer src="/curso-nodejs/search.min.6ecace9c3adb407e4545c8adc358004d43f82a67c6a2dd924241172f635e62ea.js" integrity="sha256-bsrOnDrbQH5FRcitw1gATUP4KmfGot2SQkEXL2NeYuo="></script>
 
 
 
@@ -389,7 +389,7 @@ https://github.com/alex-shpak/hugo-book
 
 <p>Um objeto é composto por um conjunto de chaves e valores, estes podendo ser desde string à functions, entre duas chaves (<code>{}</code>). Suponha o seguinte exemplo de função construtora:</p>
 
-<pre><code class="language-javascript">var Pessoa = function(nome, email) {
+<pre><code class="language-javascript">let Pessoa = function(nome, email) {
      this.nome =  nome;
   
      // verifica se o e-mail foi preenchido
@@ -397,14 +397,14 @@ https://github.com/alex-shpak/hugo-book
           this.email = email;    
      }
 };
-var joao = new Pessoa(&quot;João da Silva&quot;,  &quot;joao@da.silva&quot;); // criando nova pessoa, object
+let joao = new Pessoa(&quot;João da Silva&quot;,  &quot;joao@da.silva&quot;); // criando nova pessoa, object
 console.log(joao.nome); // João da Silva
 console.log(joao.email); // joao@da.silva
 </code></pre>
 
 <p>E abaixo um exemplo com a criação literal:</p>
 
-<pre><code class="language-javascript">var joao = {
+<pre><code class="language-javascript">let joao = {
     nome: &quot;João da Silva&quot;,
     email: &quot;joao@da.silva&quot;
 }

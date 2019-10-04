@@ -8,7 +8,7 @@ Utilizando Javascript, existem varias formas de se construir um objeto. Utilizan
 
 Um objeto é composto por um conjunto de chaves e valores, estes podendo ser desde string à functions, entre duas chaves (`{}`). Suponha o seguinte exemplo de função construtora:
 ```javascript
-var Pessoa = function(nome, email) {
+let Pessoa = function(nome, email) {
      this.nome =  nome;
   
      // verifica se o e-mail foi preenchido
@@ -16,14 +16,14 @@ var Pessoa = function(nome, email) {
           this.email = email;    
      }
 };
-var joao = new Pessoa("João da Silva",  "joao@da.silva"); // criando nova pessoa, object
+let joao = new Pessoa("João da Silva",  "joao@da.silva"); // criando nova pessoa, object
 console.log(joao.nome); // João da Silva
 console.log(joao.email); // joao@da.silva
 ```
 
 E abaixo um exemplo com a criação literal:
 ```javascript
-var joao = {
+let joao = {
     nome: "João da Silva",
     email: "joao@da.silva"
 }

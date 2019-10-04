@@ -11,8 +11,8 @@ No Javascript, existem duas formas de inserir comentários no código: linha ún
 Exemplos com linha única utilizando `//`:
 ```javascript
 // Variáveis
-var x = 0; // Declarando variável x
-var y = x + 1; // Declarando variável y
+let x = 0; // Declarando variável x
+let y = x + 1; // Declarando variável y
 ```
 
 Exemplo com multiplas linhas, abrindo o bloco com `/*` e fechando com `*/`:
