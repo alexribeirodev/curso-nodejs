@@ -165,15 +165,6 @@ O contexto pode ser acessado de qualquer parte do seu código pelo objeto reserv
     </item>
     
     <item>
-      <title>Listas/Arrays</title>
-      <link>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/listas-arrays/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/listas-arrays/</guid>
-      <description> Listas/Arrays ForEach Map Filter Push Pop Shift Shift UnShift Indexof Splice Slice </description>
-    </item>
-    
-    <item>
       <title>Operadores Aritméticos</title>
       <link>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/operadores-aritmeticos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -183,6 +174,16 @@ O contexto pode ser acessado de qualquer parte do seu código pelo objeto reserv
 Adição (+) Este operador produz a soma dos valores, estes sendo numéricos ou strings.
 Exemplos:
 // Número + Número -&amp;gt; adição 1 + 2 // 3 // Booleano + Número -&amp;gt; adição true + 1 // 2 // Booleano + Booleano -&amp;gt; adição false + false // 0 // Número + String -&amp;gt; concatenação 5 + &amp;quot;foo&amp;quot; // &amp;quot;5foo&amp;quot; // String + Booleano -&amp;gt; concatenação &amp;quot;foo&amp;quot; + false // &amp;quot;foofalse&amp;quot; // String + String -&amp;gt; concatenação &amp;quot;foo&amp;quot; + &amp;quot;bar&amp;quot; // &amp;quot;foobar&amp;quot;  Subtração (-) Este operador subtrai dois valores, produzindo sua diferença.</description>
+    </item>
+    
+    <item>
+      <title>Array</title>
+      <link>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/listas-arrays/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/listas-arrays/</guid>
+      <description>Array O objeto Array do JavaScript é um objeto global usado na construção de &amp;lsquo;arrays&amp;rsquo;: objetos de alto nível semelhantes a listas.
+Criando um Array const frutas = [&#39;Maçã&#39;, &#39;Banana&#39;]; console.log(frutas.length); // 2  Acessar um item (index) do Array const primeiro = frutas[0]; // Maçã const ultimo = frutas[frutas.length - 1]; // Banana  Métodos Modificadores Um objeto do tipo Array possui métodos que podem ser utilizados para modificar sua estrutura.</description>
     </item>
     
     <item>

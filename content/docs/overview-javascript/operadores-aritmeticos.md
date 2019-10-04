@@ -1,6 +1,6 @@
 ---
 title: Operadores Aritméticos
-weight: 9
+weight: 8
 ---
 
 # Operadores Aritméticos
