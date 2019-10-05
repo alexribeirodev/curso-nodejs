@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="/curso-nodejs/book.min.89885fa0429ec73067282f26fc0c6d38cfc617a443ec4e835d47b821c52c6e92.css" integrity="sha256-iYhfoEKexzBnKC8m/AxtOM/GF6RD7E6DXUe4IcUsbpI=">
 
 
-<script defer src="/curso-nodejs/search.min.1599714e672bc83b0464cb23954a7e0c4a08480fb66d5192342ea1962e8e6451.js" integrity="sha256-FZlxTmcryDsEZMsjlUp&#43;DEoISA&#43;2bVGSNC6hli6OZFE="></script>
+<script defer src="/curso-nodejs/search.min.09094849f142a775db84c0d86aac71fd56e4d16f76259e7303cf5cb255e85504.js" integrity="sha256-CQlISfFCp3XbhMDYaqxx/Vbk0W92JZ5zA89cslXoVQQ="></script>
 
 
 
@@ -177,8 +177,8 @@ https://github.com/alex-shpak/hugo-book
       
         <li>
 
-  <a href="/curso-nodejs/docs/overview-javascript/listas-arrays/" >
-      Listas/Arrays
+  <a href="/curso-nodejs/docs/overview-javascript/operadores-aritmeticos/" >
+      Operadores Aritméticos
   </a>
 
 </li>
@@ -187,8 +187,8 @@ https://github.com/alex-shpak/hugo-book
       
         <li>
 
-  <a href="/curso-nodejs/docs/overview-javascript/operadores-aritmeticos/" >
-      Operadores Aritméticos
+  <a href="/curso-nodejs/docs/overview-javascript/listas-arrays/" >
+      Array
   </a>
 
 </li>
@@ -217,8 +217,8 @@ https://github.com/alex-shpak/hugo-book
       
         <li>
 
-  <a href="/curso-nodejs/docs/overview-javascript/prototype/" >
-      Prototype
+  <a href="/curso-nodejs/docs/overview-javascript/classes/" >
+      Classes
   </a>
 
 </li>
@@ -227,8 +227,8 @@ https://github.com/alex-shpak/hugo-book
       
         <li>
 
-  <a href="/curso-nodejs/docs/overview-javascript/classes/" >
-      Classes
+  <a href="/curso-nodejs/docs/overview-javascript/programacao-assincrona/" >
+      Programação Assíncrona
   </a>
 
 </li>
@@ -384,6 +384,104 @@ https://github.com/alex-shpak/hugo-book
 <article class="markdown">
 
 <h1 id="funções">Funções</h1>
+
+<p>Segundo a descrição da <a href="https://www.mozilla.org/pt-BR/">mozilla.org</a>:</p>
+
+<blockquote>
+<p>Funções são blocos de construção fundamentais em JavaScript. Uma função é um procedimento de JavaScript — um conjunto de instruções que executa uma tarefa ou calcula um valor. Para usar uma função, você deve defini-la em algum lugar no escopo do qual você quiser chamá-la.</p>
+</blockquote>
+
+<p>Funções em Javascript são conhecidas como objetos de primeira classe (first-class objects). Isso porque tudo o que você pode fazer com um objeto, você pode fazer com funções. Na realidade uma função é um objeto do tipo Function.</p>
+
+<p>As funções podem ser utilizadas de diversas formas, estas às quais iremos abordar a seguir.</p>
+
+<h2 id="criadas-de-forma-literal">Criadas de forma literal</h2>
+
+<pre><code class="language-javascript">function myFunction(){} //definindo uma função
+</code></pre>
+
+<h2 id="passadas-como-parâmetros-para-outras-funções">Passadas como parâmetros para outras funções</h2>
+
+<pre><code class="language-javascript">function myFunction(param){} //definindo a função
+//invocando a função e passando como parâmetro outra função
+myFunction(function(){ console.log(&quot;função como parâmetro&quot;) })
+</code></pre>
+
+<h2 id="atribuídas-para-propriedades-de-objetos">Atribuídas para propriedades de objetos</h2>
+
+<pre><code class="language-javascript">//definindo um objeto com uma propriedade que é uma função
+let obj = {
+    start:function(){}
+};
+//atribuindo uma função como propriedade para um objeto dinamicamente
+let obj = {};
+obj.myFunction = function(){};
+</code></pre>
+
+<h2 id="retornadas-como-resultado-de-uma-função">Retornadas como resultado de uma função</h2>
+
+<pre><code class="language-javascript">function myFunction(){
+    return function(){} //retornando uma função como resultado
+}
+</code></pre>
+
+<h2 id="possuir-propriedades-que-podem-ser-atribuídas-dinamicamente">Possuir propriedades que podem ser atribuídas dinamicamente</h2>
+
+<pre><code class="language-javascript">function myFunction(){}
+myFunction.startTime = 0 // atribuindo uma propriedade para a função
+// a forma abaixo também funciona
+let myFunction = function(){}
+myFunction.startTime = 0
+</code></pre>
+
+<blockquote>
+<p>Exemplos retirados de uma postagem, do blog <a href="https://medium.com/reactbrasil/como-o-javascript-funciona-entendendo-as-fun%C3%A7%C3%B5es-e-suas-formas-de-uso-eb387c7fa138">React Brasil</a>, muito completa sobre o tema.</p>
+</blockquote>
+
+<h1 id="principais-formas-de-definir-funções">Principais formas de definir funções</h1>
+
+<h2 id="arrow-functions">Arrow functions</h2>
+
+<p>Arrow functions é uma forma mais simplificada e direta de se criar uma function e foi adicionada no ES6. Esta forma de se escrever uma função também é encontrada em outras linguagens.</p>
+
+<pre><code class="language-javascript">// arrow function em apenas uma linha e sem o return
+let sum = (x, y) =&gt; x + y
+sum(1, 1)
+
+//arrow function com bloco de código
+let sum = (x, y) =&gt; {
+    return x + y
+}
+sum(1, 1)
+</code></pre>
+
+<h2 id="callback-functions">Callback functions</h2>
+
+<p>Uma callback function (chaamda de retorno) é uma função que é passada como argumento para outra função, para ser &ldquo;chamada de volta&rdquo; posteriormente. Uma função que aceita outras funções como argumentos é chamada de função de higher-order (ordem superior), que contém a lógica para quando a callback function é executada. É a combinação desses dois que nos permite ampliar nossa funcionalidade.</p>
+
+<p>Veja o exemplo abaixo:</p>
+
+<pre><code class="language-javascript">function createQuote(quote, callback){ 
+  let myQuote = &quot;Como eu sempre digo, &quot; + quote;
+  callback(myQuote); // 2
+}
+
+function logQuote(quote){
+  console.log(quote);
+}
+
+createQuote(&quot;coma seus vegetais!&quot;, logQuote); // 1
+
+// Resultado no console: 
+// Como eu sempre digo, coma seus vegetais!
+</code></pre>
+
+<h1 id="links-úteis">Links Úteis</h1>
+
+<ul>
+<li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Fun%C3%A7%C3%B5es">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Fun%C3%A7%C3%B5es</a></li>
+<li><a href="https://www.ecma-international.org/ecma-262/6.0/#sec-function-definitions">https://www.ecma-international.org/ecma-262/6.0/#sec-function-definitions</a></li>
+</ul>
 </article>
 
       
@@ -397,7 +495,20 @@ https://github.com/alex-shpak/hugo-book
   <aside class="book-toc level-6 fixed">
     <nav id="TableOfContents">
 <ul>
-<li><a href="#funções">Funções</a></li>
+<li><a href="#funções">Funções</a>
+<ul>
+<li><a href="#criadas-de-forma-literal">Criadas de forma literal</a></li>
+<li><a href="#passadas-como-parâmetros-para-outras-funções">Passadas como parâmetros para outras funções</a></li>
+<li><a href="#atribuídas-para-propriedades-de-objetos">Atribuídas para propriedades de objetos</a></li>
+<li><a href="#retornadas-como-resultado-de-uma-função">Retornadas como resultado de uma função</a></li>
+<li><a href="#possuir-propriedades-que-podem-ser-atribuídas-dinamicamente">Possuir propriedades que podem ser atribuídas dinamicamente</a></li>
+</ul></li>
+<li><a href="#principais-formas-de-definir-funções">Principais formas de definir funções</a>
+<ul>
+<li><a href="#arrow-functions">Arrow functions</a></li>
+<li><a href="#callback-functions">Callback functions</a></li>
+</ul></li>
+<li><a href="#links-úteis">Links Úteis</a></li>
 </ul>
 </nav>
   </aside>

@@ -46,7 +46,8 @@ var x = 1 console.log(x) // 1 x = &amp;quot;Essa é uma string&amp;quot; console
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/objetos/</guid>
-      <description> Objetos </description>
+      <description>Objetos Utilizando Javascript, existem varias formas de se construir um objeto. Utilizando JavaScript, existem varias formas de se construir um objeto. As três formas mais conhecidas são: utilizando a notação literal, utilizando funções construtoras e classes (esta será abordada em outro tópico).
+Um objeto é composto por um conjunto de chaves e valores, estes podendo ser desde string à functions, entre duas chaves ({}). Suponha o seguinte exemplo de função construtora:</description>
     </item>
     
     <item>
@@ -55,7 +56,9 @@ var x = 1 console.log(x) // 1 x = &amp;quot;Essa é uma string&amp;quot; console
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/funcoes/</guid>
-      <description> Funções </description>
+      <description>Funções Segundo a descrição da mozilla.org:
+ Funções são blocos de construção fundamentais em JavaScript. Uma função é um procedimento de JavaScript — um conjunto de instruções que executa uma tarefa ou calcula um valor. Para usar uma função, você deve defini-la em algum lugar no escopo do qual você quiser chamá-la.
+ Funções em Javascript são conhecidas como objetos de primeira classe (first-class objects). Isso porque tudo o que você pode fazer com um objeto, você pode fazer com funções.</description>
     </item>
     
     <item>
@@ -64,16 +67,8 @@ var x = 1 console.log(x) // 1 x = &amp;quot;Essa é uma string&amp;quot; console
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/contexto/</guid>
-      <description> Contexto (this) </description>
-    </item>
-    
-    <item>
-      <title>Listas/Arrays</title>
-      <link>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/listas-arrays/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/listas-arrays/</guid>
-      <description> Listas/Arrys ForEach Map Filter Push Pop Shift Shift UnShift Indexof Splice Slice </description>
+      <description>Contexto (this) O contexto no Javacript é algo que tanto pode ser tanto nosso amigo quanto nosso pior inimigo. O mesmo é responsável muitas vezes o motivo de bugs em nosso algoritmo, como também a solução para muitos de nossos problemas.
+O contexto pode ser acessado de qualquer parte do seu código pelo objeto reservado this. Porém, seu valor pode ser diferente dependendo de qual parte do seu código está sendo chamado.</description>
     </item>
     
     <item>
@@ -82,7 +77,20 @@ var x = 1 console.log(x) // 1 x = &amp;quot;Essa é uma string&amp;quot; console
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/operadores-aritmeticos/</guid>
-      <description> Operadores Aritméticos Soma (+) Subtração (-) Multiplicação (*) Divisão (/) Módulo (%) Exponenciação (**) Incremento (++) Decremento (&amp;ndash;) Negação Unária (-) Soma Unária (+) </description>
+      <description>Operadores Aritméticos Operadores aritméticos tem valores numéricos (literais ou variáveis) como seus operadores e retornam um valor numérico único. Os operadores aritméticos padrões são adição (+), subtração (-), multiplicação (*), e divisão (/). (mozilla.org)
+Adição (+) Este operador produz a soma dos valores, estes sendo numéricos ou strings.
+Exemplos:
+// Número + Número -&amp;gt; adição 1 + 2 // 3 // Booleano + Número -&amp;gt; adição true + 1 // 2 // Booleano + Booleano -&amp;gt; adição false + false // 0 // Número + String -&amp;gt; concatenação 5 + &amp;quot;foo&amp;quot; // &amp;quot;5foo&amp;quot; // String + Booleano -&amp;gt; concatenação &amp;quot;foo&amp;quot; + false // &amp;quot;foofalse&amp;quot; // String + String -&amp;gt; concatenação &amp;quot;foo&amp;quot; + &amp;quot;bar&amp;quot; // &amp;quot;foobar&amp;quot;  Subtração (-) Este operador subtrai dois valores, produzindo sua diferença.</description>
+    </item>
+    
+    <item>
+      <title>Array</title>
+      <link>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/listas-arrays/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/listas-arrays/</guid>
+      <description>Array O objeto Array do JavaScript é um objeto global usado na construção de &amp;lsquo;arrays&amp;rsquo;: objetos de alto nível semelhantes a listas.
+Criando um Array const frutas = [&#39;Maçã&#39;, &#39;Banana&#39;]; console.log(frutas.length); // 2  Acessar um item (index) do Array const primeiro = frutas[0]; // Maçã const ultimo = frutas[frutas.length - 1]; // Banana  Métodos Modificadores Um objeto do tipo Array possui métodos que podem ser utilizados para modificar sua estrutura.</description>
     </item>
     
     <item>
@@ -91,7 +99,9 @@ var x = 1 console.log(x) // 1 x = &amp;quot;Essa é uma string&amp;quot; console
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/condicionais/</guid>
-      <description> Condicionais If Else If Else Ternário Switch </description>
+      <description>Condicionais As estruturas condicionais Javascript não difere muito da existente na maioria das outras linguagens de programação, as utilizamos para definir se algo deve acontecer ou não.
+if&amp;hellip;else A condicional if é uma estrutura condicional que executa a afirmação, dentro do bloco, se determinada condição for verdadeira. Se for falsa, executa as afirmações dentro de else.
+let x = 5 if (x &amp;gt; 5 &amp;amp;&amp;amp; x &amp;lt; 50) { console.</description>
     </item>
     
     <item>
@@ -100,16 +110,8 @@ var x = 1 console.log(x) // 1 x = &amp;quot;Essa é uma string&amp;quot; console
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/loops/</guid>
-      <description> Loops For ForIn ForOf While Break e Continue </description>
-    </item>
-    
-    <item>
-      <title>Prototype</title>
-      <link>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/prototype/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/prototype/</guid>
-      <description> Prototype </description>
+      <description>Loops Assim como as estruturas condicionais Javascript, as estruturas de repetição também não se diferem tanto das existente em outras linguagens de programação. Essas estruturas de repetição, são utilizadas para repetir ações semelhantes que são executadas para todos os elementos de uma lista de dados, ou simplesmente para repetir um mesmo processamento até que a condição seja satisfeita.
+for A instrução for cria um loop que consiste em três expressões opcionais, dentro de parênteses e separadas por ponto e vírgula, seguidas por uma declaração ou uma sequência de declarações executadas em sequência.</description>
     </item>
     
     <item>
@@ -118,7 +120,19 @@ var x = 1 console.log(x) // 1 x = &amp;quot;Essa é uma string&amp;quot; console
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/classes/</guid>
-      <description> Classes </description>
+      <description>Classes Uma classe Javascript é um tipo especial de função.
+Declarando classes Uma maneira de definir uma classe é usando uma declaração de classe. Para declarar uma classe, você deve usar a palavra-chave class seguida pelo nome da classe.
+class Retangulo { constructor(altura, largura) { this.altura = altura; this.largura = largura; } }  Outra forma de declarar uma classe é por meio do que chamados de Expressão de Classe.</description>
+    </item>
+    
+    <item>
+      <title>Programação Assíncrona</title>
+      <link>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/programacao-assincrona/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/programacao-assincrona/</guid>
+      <description>Programação Assíncrona Síncrono ou assíncrono diz respeito ao fluxo de execução de um programa. Quando uma operação executa completamente antes de passar o controle à seguinte, a execução é síncrona.
+Pode-se fazer a analogia de uma operação assíncrona ao agendamento de uma operação. A thread agenda a operação e pode continuar a execução normalmente. Quando a operação assíncrona estiver concluída a thread tem oportunidade de processar o seu resultado. Essa oportunidade normalmente é criada usando callbacks.</description>
     </item>
     
   </channel>
