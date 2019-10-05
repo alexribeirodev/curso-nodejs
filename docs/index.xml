@@ -192,7 +192,9 @@ Criando um Array const frutas = [&#39;Maçã&#39;, &#39;Banana&#39;]; console.lo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/condicionais/</guid>
-      <description> Condicionais if&amp;hellip;else Ternário switch </description>
+      <description>Condicionais As estruturas condicionais Javascript não difere muito da existente na maioria das outras linguagens de programação, as utilizamos para definir se algo deve acontecer ou não.
+if&amp;hellip;else A condicional if é uma estrutura condicional que executa a afirmação, dentro do bloco, se determinada condição for verdadeira. Se for falsa, executa as afirmações dentro de else.
+let x = 5 if (x &amp;gt; 5 &amp;amp;&amp;amp; x &amp;lt; 50) { console.</description>
     </item>
     
     <item>
@@ -201,16 +203,8 @@ Criando um Array const frutas = [&#39;Maçã&#39;, &#39;Banana&#39;]; console.lo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/loops/</guid>
-      <description> Loops For ForIn ForOf While Break e Continue </description>
-    </item>
-    
-    <item>
-      <title>Prototype</title>
-      <link>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/prototype/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/prototype/</guid>
-      <description> Prototype </description>
+      <description>Loops Assim como as estruturas condicionais Javascript, as estruturas de repetição também não se diferem tanto das existente em outras linguagens de programação. Essas estruturas de repetição, são utilizadas para repetir ações semelhantes que são executadas para todos os elementos de uma lista de dados, ou simplesmente para repetir um mesmo processamento até que a condição seja satisfeita.
+for A instrução for cria um loop que consiste em três expressões opcionais, dentro de parênteses e separadas por ponto e vírgula, seguidas por uma declaração ou uma sequência de declarações executadas em sequência.</description>
     </item>
     
     <item>
@@ -219,7 +213,19 @@ Criando um Array const frutas = [&#39;Maçã&#39;, &#39;Banana&#39;]; console.lo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/classes/</guid>
-      <description> Classes </description>
+      <description>Classes Uma classe Javascript é um tipo especial de função.
+Declarando classes Uma maneira de definir uma classe é usando uma declaração de classe. Para declarar uma classe, você deve usar a palavra-chave class seguida pelo nome da classe.
+class Retangulo { constructor(altura, largura) { this.altura = altura; this.largura = largura; } }  Outra forma de declarar uma classe é por meio do que chamados de Expressão de Classe.</description>
+    </item>
+    
+    <item>
+      <title>Programação Assíncrona</title>
+      <link>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/programacao-assincrona/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/programacao-assincrona/</guid>
+      <description>Programação Assíncrona Síncrono ou assíncrono diz respeito ao fluxo de execução de um programa. Quando uma operação executa completamente antes de passar o controle à seguinte, a execução é síncrona.
+Pode-se fazer a analogia de uma operação assíncrona ao agendamento de uma operação. A thread agenda a operação e pode continuar a execução normalmente. Quando a operação assíncrona estiver concluída a thread tem oportunidade de processar o seu resultado. Essa oportunidade normalmente é criada usando callbacks.</description>
     </item>
     
   </channel>
