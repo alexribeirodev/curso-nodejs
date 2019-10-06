@@ -1,5 +1,0 @@
-baseURL = "https://alexribeirodev.github.io/curso-nodejs/"
-languageCode = "en-us"
-title = "Curso Node.js"
-theme = "book"
-publishdir = "./docs"
