@@ -11,75 +11,21 @@
     
     
     <item>
-      <title>Gerenciando pacotes e dependências com NPM</title>
-      <link>https://alexribeirodev.github.io/curso-nodejs/docs/node/gerenciando-dependencias/</link>
+      <title>Exemplos</title>
+      <link>https://alexribeirodev.github.io/curso-nodejs/docs/node/exemplos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/node/gerenciando-dependencias/</guid>
-      <description> Gerenciando pacotes e dependências com NPM Package.json </description>
+      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/node/exemplos/</guid>
+      <description>Exemplos Todos os código exemplos que serão feitos no treinamento podem ser baixados clicando [aqui]().</description>
     </item>
     
     <item>
-      <title>Manipulando Arquivos</title>
-      <link>https://alexribeirodev.github.io/curso-nodejs/docs/node/manipulando-arquivos/</link>
+      <title>Links Úteis</title>
+      <link>https://alexribeirodev.github.io/curso-nodejs/docs/node/links-uteis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/node/manipulando-arquivos/</guid>
-      <description> Manipulando Arquivos </description>
-    </item>
-    
-    <item>
-      <title>JSON</title>
-      <link>https://alexribeirodev.github.io/curso-nodejs/docs/node/json/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/node/json/</guid>
-      <description> JSON </description>
-    </item>
-    
-    <item>
-      <title>Requisições HTTP com módulo HTTP</title>
-      <link>https://alexribeirodev.github.io/curso-nodejs/docs/node/requisicoes-http/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/node/requisicoes-http/</guid>
-      <description> Requisições HTTP com módulo HTTP </description>
-    </item>
-    
-    <item>
-      <title>Requisições HTTP com módulo Request</title>
-      <link>https://alexribeirodev.github.io/curso-nodejs/docs/node/requisicoes-request/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/node/requisicoes-request/</guid>
-      <description> Requisições HTTP com módulo Request </description>
-    </item>
-    
-    <item>
-      <title>Criando um servidor HTTP com módulo HTTP</title>
-      <link>https://alexribeirodev.github.io/curso-nodejs/docs/node/servidor-http/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/node/servidor-http/</guid>
-      <description> Criando um servidor HTTP com módulo HTTP </description>
-    </item>
-    
-    <item>
-      <title>Conhecendo o Express.js</title>
-      <link>https://alexribeirodev.github.io/curso-nodejs/docs/node/expressjs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/node/expressjs/</guid>
-      <description> Conhecendo o Express.js Criando uma API com Express.js Estruturando no padrão MVC Criando gerenciamento de rotas Conhecendo Middlewares </description>
-    </item>
-    
-    <item>
-      <title>Consumindo Serviços da AWS</title>
-      <link>https://alexribeirodev.github.io/curso-nodejs/docs/node/servicos-aws/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/node/servicos-aws/</guid>
-      <description> Consumindo Serviços da AWS </description>
+      <guid>https://alexribeirodev.github.io/curso-nodejs/docs/node/links-uteis/</guid>
+      <description> Links Úteis  https://nodejs.org/ https://nodejs.org/docs/latest-v10.x/api/ https://www.npmjs.com/ https://expressjs.com/ https://mongoosejs.com/  </description>
     </item>
     
   </channel>

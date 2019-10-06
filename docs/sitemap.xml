@@ -7,7 +7,7 @@
   </url>
   
   <url>
-    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/gerenciando-dependencias/</loc>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/exemplos/</loc>
   </url>
   
   <url>
@@ -23,7 +23,7 @@
   </url>
   
   <url>
-    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/manipulando-arquivos/</loc>
+    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/links-uteis/</loc>
   </url>
   
   <url>
@@ -35,15 +35,7 @@
   </url>
   
   <url>
-    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/json/</loc>
-  </url>
-  
-  <url>
     <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/</loc>
-  </url>
-  
-  <url>
-    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/requisicoes-http/</loc>
   </url>
   
   <url>
@@ -55,23 +47,7 @@
   </url>
   
   <url>
-    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/requisicoes-request/</loc>
-  </url>
-  
-  <url>
-    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/servidor-http/</loc>
-  </url>
-  
-  <url>
     <loc>https://alexribeirodev.github.io/curso-nodejs/docs/overview-javascript/funcoes/</loc>
-  </url>
-  
-  <url>
-    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/expressjs/</loc>
-  </url>
-  
-  <url>
-    <loc>https://alexribeirodev.github.io/curso-nodejs/docs/node/servicos-aws/</loc>
   </url>
   
   <url>
